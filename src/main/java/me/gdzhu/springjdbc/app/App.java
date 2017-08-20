@@ -29,7 +29,8 @@ public class App {
         String nameTemp = customerDAO.findCustomerNameById(1);
         System.out.println(nameTemp);
         System.out.println("--------------");
-
+        int totalNum = customerDAO.findTotalCustomer();
+        System.out.println(totalNum);
 
     }
 }
