@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20d9642a-c6c4-461f-8500-ae3a017749c6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/gdzhu/springjdbc/app/AppParaTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/gdzhu/springjdbc/dao/ParameterDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/gdzhu/springjdbc/dao/impl/ParameterDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/gdzhu/springjdbc/app/App.class" afterPath="$PROJECT_DIR$/target/classes/me/gdzhu/springjdbc/app/App.class" />
+    <list default="true" id="20d9642a-c6c4-461f-8500-ae3a017749c6" name="Default" comment="参数转换测试">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/gdzhu/springjdbc/app/App.java" afterPath="$PROJECT_DIR$/src/main/java/me/gdzhu/springjdbc/app/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/springjdbc/Spring-Customer.xml" afterPath="$PROJECT_DIR$/src/main/resources/springjdbc/Spring-Customer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springjdbc/Spring-Customer.xml" afterPath="$PROJECT_DIR$/target/classes/springjdbc/Spring-Customer.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,8 +52,8 @@
       <file leaf-file-name="AppParaTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/gdzhu/springjdbc/app/AppParaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="397">
+              <caret line="25" column="61" lean-forward="true" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#939#949#0" expanded="true" />
@@ -1006,7 +999,7 @@
       <workItem from="1502452861112" duration="3063000" />
       <workItem from="1503114801737" duration="2449000" />
       <workItem from="1503206043781" duration="1018000" />
-      <workItem from="1503207165213" duration="9930000" />
+      <workItem from="1503207165213" duration="9988000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1503217324914</created>
@@ -1015,14 +1008,22 @@
       <option name="project" value="LOCAL" />
       <updated>1503217324914</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="参数转换测试">
+      <created>1503225758250</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1503225758250</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20035000" />
+    <option name="totallyTimeSpent" value="20093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1064,7 +1065,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="参数转换测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="参数转换测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1540,8 +1542,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/gdzhu/springjdbc/app/AppParaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="397">
+          <caret line="25" column="61" lean-forward="true" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#939#949#0" expanded="true" />
