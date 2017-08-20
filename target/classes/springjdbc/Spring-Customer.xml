@@ -6,4 +6,8 @@
     <bean id="customerDAO"  class="me.gdzhu.springjdbc.dao.impl.JdbcDaoSupportImpl">
         <property name="dataSource" ref="dataSource"/>
     </bean>
+    <bean id="ParameterDao"  class="me.gdzhu.springjdbc.dao.impl.ParameterDaoImpl">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
 </beans>
