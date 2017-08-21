@@ -11,5 +11,6 @@ public interface ParameterDao {
     public void insertNamedParameter(Customer customer);
     public void insertBatchNamedParameter(final List<Customer> customers);
     public void insertBatchNamedParameter2(final List<Customer> customers);
+    public void updateBatchNamedParameter(final List<Customer> customers);
 
 }

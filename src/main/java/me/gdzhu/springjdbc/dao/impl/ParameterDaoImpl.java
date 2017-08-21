@@ -50,5 +50,14 @@ public class ParameterDaoImpl extends NamedParameterJdbcDaoSupport implements Pa
                 params);
     }
 
+    public void updateBatchNamedParameter(final List<Customer> customers){
+        String sql = "UPDATE CUSTOMER SET NAME=:name,AGE=:age where CUST_ID=:custId" ;
+        SqlParameterSource[] params =
+                SqlParameterSourceUtils.createBatch(customers.toArray());
+        getNamedParameterJdbcTemplate().batchUpdate(sql,params);
+    }
+
+
+
 
 }

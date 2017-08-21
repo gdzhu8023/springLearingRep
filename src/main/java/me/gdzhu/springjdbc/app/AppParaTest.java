@@ -19,9 +19,9 @@ public class AppParaTest {
 //        Customer customer = new Customer(4,"nio",23);
 //        parameterDao.insertNamedParameter(customer);
 
-        Customer customer1 = new Customer(8, "test1",21);
-        Customer customer3 = new Customer(9, "test2",22);
-        Customer customer2 = new Customer(10, "test3",23);
+        Customer customer1 = new Customer(11, "testFF1",24);
+        Customer customer3 = new Customer(12, "testFF2",25);
+        Customer customer2 = new Customer(13, "testFF3",26);
 
         List<Customer> customers = new ArrayList<Customer>();
         customers.add(customer1);
@@ -29,6 +29,7 @@ public class AppParaTest {
         customers.add(customer3);
 
         //parameterDao.insertBatchNamedParameter(customers);
-        parameterDao.insertBatchNamedParameter2(customers);
+        //parameterDao.insertBatchNamedParameter2(customers);
+        parameterDao.updateBatchNamedParameter(customers);
     }
 }
